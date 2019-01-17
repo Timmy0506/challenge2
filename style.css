@@ -1,11 +1,36 @@
 
 html, body{
 
+
+
 }
 
 body{
     font-family: 'roboto', sarif;
-    font-weight: 100;
+
+
+
+
+
+}
+
+#nav{
+    font-family: bold;
+    color: white;
+    background-color: springgreen;
+    margin-bottom: 200px;
+    height: 30px;
+    width: 400px;
+    text-align: left;
+
+
+}
+
+.ul, .container {
+    text-align: left;
+    background-color: #404040;
+    background-size: cover;
+
 }
 
 
