@@ -14,17 +14,16 @@ body{
 
 }
 
-#nav {
+#nav, a:hover {
     font-family: bold;
     color: white;
-    background-color: springgreen;
-    margin-bottom: 200px;
-    height: 30px;
-    width: 400px;
+    background: grey;
+    border: 1px solid grey;
     text-align: left;
 
 
 }
+
 
 
 
