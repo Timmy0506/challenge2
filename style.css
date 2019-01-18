@@ -36,6 +36,31 @@ body{
     padding: 14px;
     text-decoration: none;
     font-size: small;
+
+}
+
+.content {
+   border-style: solid;
+   border-width: 1px;
+   padding: 10px;
+   border-color: lightgray;
+}
+
+
+#content {
+    display: grid;
+    grid-template-colums: repeat(6, 16.6%);
+    grid-auto-rows: minmax(50px, auto);
+    max-width: 950px;
+    margin: 0 auto;
+    font-family: roboto;
+    grid-template-areas:
+    "head head head head head head"
+    "main main main main aside aside"
+    "main main main main aside aside"
+    "footer footer footer footer";
+
+
 }
 
 
