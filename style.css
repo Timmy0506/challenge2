@@ -15,19 +15,38 @@ body{
 }
 
 
+
+a:link {
+    color: green;
+    text-decoration: none;
+}
+
+
+a:visited {
+    color: green;
+}
+
+a:hover {
+    color: greenyellow;
+}
+
+
+a:active {
+    color: greenyellow;
+}
+
+
 .head {
-    font-size: small;
+    font-size: medium;
 }
 
-#nav, a:hover {
-    font-family: bold;
-    color: white;
-    background: grey;
-    border: 1px solid grey;
-    text-align: left;
 
 
-}
+
+
+
+
+
 
 
 
@@ -73,8 +92,14 @@ body{
 
 
 
+
 @media screen and (min-width: 720px) {
     .nav  { display: none; }
 }
+
+
+
+
+
 
 
