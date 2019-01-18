@@ -39,3 +39,9 @@ body{
 }
 
 
+
+@media screen and (min-width: 720px) {
+    .nav  { display: none; }
+}
+
+
